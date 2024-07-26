@@ -41,7 +41,7 @@ function Product({dessert}) {
    </div>
         <span className='text-textColor trxt-[18.52px]'>{dessert. category}</span>
         <h1 className='titleColor text-[21px] line-clamp-1'>{dessert.name}</h1>
-        <span className='text-secondaryColor font-semibold'>{`$${dessert.price}.00`}</span>
+        <span className='text-secondaryColor font-semibold'>{`$${(dessert.price.toFixed(2)) }`}</span>
     </div>
   )
 }

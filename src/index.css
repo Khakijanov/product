@@ -15,3 +15,9 @@ body{
   padding-left:0;
   padding-right:0;
 }
+.myButton{
+  transition: .3s;
+}
+.myButton:active{
+  transform: scale(.9);
+}
